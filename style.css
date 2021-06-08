@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gainsboro;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.header {
+    width: 100%;
+    background-color: orange;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-dark {
+    color: #464646;
+}
+
+.text-light {
+    color: white;
+}
+
+.border-a {
+    border: 1px solid;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+    border-collapse: collapse;
+    margin: 10px;
+    padding: 20px;
+}
+
+.tengah {
+    margin: 0 auto;
+}
+
+button {
+    border: 0;
+    background-color: rgb(220, 133, 133);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: rgb(223, 105, 105);
+}
+
+.btn-info {
+    border: 0;
+    background-color: #27B678;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin: 10 auto;
+}
+
+.btn-info:hover {
+    background-color: #1A925E;
+}
+
+.btn-danger {
+    border: 0;
+    background-color: #dc3545;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin: 10 auto;
+}
+
+.btn-danger:hover {
+    background-color: #DB153F;
+}
+
+.btn:hover {
+    background-color: rgb(223, 105, 105);
+}
+
+.u_form {
+    padding: 10px;
+    text-align: center;
+}
+
+.input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.navigasi ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #262626;
+}
+
+.navigasi li {
+    float: left;
+}
+
+.navigasi li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.navigasi li a:hover {
+    background-color: #D98C00;
+    transition-duration: 2s;
+}
+
+.section {
+    margin: 5px;
+}
+
+.banner img {
+    display: block;
+    width: 100%;
+    height: 500px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, #f44242, #1cb5e0);
+}
+
+.box {
+    border: 1px solid #F3F1F1;
+    box-shadow: 4px 4px 4px 2px #E3E1E1;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.left {
+    width: 250px;
+    float: left;
+    margin-right: 10px;
+}
+
+.center {
+    width: 800px;
+    margin-right: 10px;
+    float: left;
+}
+
+.right {
+    width: 250px;
+    float: left;
+}
+
+.isi {
+    margin: 10px;
+    padding: 10px;
+}
+
+.by {
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+}
+
+@media screen and (max-width:1080px) {
+    .badan-utama {
+        width: 100%;
+    }
+
+    .kiri {
+        width: 25%;
+    }
+
+    .tengah {
+        width: 68%;
+        float: right;
+    }
+
+    .kanan {
+        clear: both;
+        float: none;
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+        float: left;
+    }
+
+    .center {
+        width: 100%;
+        margin-right: 10px;
+        float: left;
+    }
+}
+
+@media screen and (max-width:780px) {
+
+    header h2,
+    header p {
+        text-align: center;
+    }
+
+    .kiri,
+    .kanan,
+    .tengah {
+        float: none;
+        width: 100%;
+    }
+
+    .navigasi li {
+        float: none;
+    }
+
+    .right {
+        width: 100%;
+        float: left;
+    }
+
+    .center {
+        width: 100%;
+        margin-right: 10px;
+        float: left;
+    }
+}

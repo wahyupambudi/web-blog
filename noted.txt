@@ -1,0 +1,5 @@
+ada inputan menggunakan database
+
+Create
+Read
+
